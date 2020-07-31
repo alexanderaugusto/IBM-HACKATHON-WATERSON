@@ -1,0 +1,5 @@
+applications:
+- name: WatersonBackend
+  random-route: true
+  command: npm start
+  memory: 128M

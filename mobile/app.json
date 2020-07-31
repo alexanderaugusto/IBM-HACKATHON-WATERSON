@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Waterson",
+    "slug": "waterson_mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo_mini.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hackathonibm.mobile",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.hackathonibm.mobile",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBxbJEY0goL8FPiyAPy8drJjuky_fmY9ho"
+        }
+      },
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/logo_mini.png"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "bg-light": "#35A7FF",
+  "bg-dark": "#1662ad",
+  "header": "#FFFFFF",
+  "gradient": ["#35A7FF", "#1662ad"],
+  "title": "#525252",
+  "text": "#696D7D",
+  "text-primary": "#FF9F1C"
+}
