@@ -1,4 +1,8 @@
 ## Node.JS API
+
+## First clone this repository: 
+> git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
+
 The backend API is running in a Cloud Foundry application on IBM Cloud: https://watersonbackend-chipper-genet-kv.mybluemix.net.
 
 if you want to run locally, try the next steps:
