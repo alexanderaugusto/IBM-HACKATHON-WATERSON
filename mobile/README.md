@@ -1,5 +1,6 @@
 # mobile
-## First clone this repository: git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
+## First clone this repository: 
+> git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
 
 Sorry, but we still don't have the Andaroid version of it, so we just leave it in the APK folder inside the android folder.
 
