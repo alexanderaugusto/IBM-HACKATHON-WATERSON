@@ -29,6 +29,8 @@ The data collected are in the São Paulo region, we have not yet been able to ex
 The connection made to it was made by node js, through an api rest. We made the connection following the IBM documentation, all settings are at the root of the project in the .env file.
 
 ## Important 
+Inside the test folder, there is a file called IBM-HACKATHON.postman_collection.json, where are the routes we used in the project with a [Postman](https://www.postman.com/) file. To run the routes, first configure the variable environment **hackathon-ibm-url** in Postman, in **Manage Environments>Global>current>API_URL**
+	
 The backend API is already running in a Cloud Foundry serviçi on IBM Cloud: https://watersonbackend-chipper-genet-kv.mybluemix.net.
 
 But, if you want to run locally, try the next steps:
