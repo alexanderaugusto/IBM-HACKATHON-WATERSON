@@ -1,4 +1,7 @@
 # mobile
+
+## This repository can also be found at this link https://github.com/alexanderaugusto/hackathon-ibm-mobile.git, we added it here to facilitate the submission of the project.
+
 ## First clone this repository: 
 > git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
 
