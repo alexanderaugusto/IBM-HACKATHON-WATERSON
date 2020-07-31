@@ -6,6 +6,23 @@
 > git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
 
 ## Introduction
+This api rest, developed with the JavaScript language and nodejs, aims to connect with all IBM services used in the project.
+
+### IBM Cloud Foundry
+This service was used to put this API into "production", so you don't have to run it locally to use the application. We connect to it following the IBM documentation to upload a server in nodejs, the configured data is in the .env file at the root of the project.
+
+### IBM Cloud Action Function
+This service was used to collect some data from the Dark [Sky API](https://darksky.net/dev). As the collection code was in Python, this service went very well, as we were able to easily upload the code to IBM Cloud and use it in nodejs as a Web Action.
+
+### IBM Cloud Watson Assistent
+This service was used to guide the user in cases of flooding. The Assistant manages to resolve several doubts, thus leaving people informed about flood cases throughout the world. Of course he is still a child, our team had never touched Watson Assistent before, so he was not perfect, but I confess that it was a beautiful learning experience.
+
+### IBM Cloud Watson Machine Learning and Watson Studio
+These services were used to train and use a Machine Learning model, created to show the user the risk of flooding in a given location. The model was created with IBM's AutoIA Experiment and we used Linear Regression.
+
+It was not perfect, but the main factor was because the amount of data we collected was not enough, we intend to continue this project and further improve our model.
+
+The data collected are in the São Paulo region, we have not yet been able to expand it throughout the world. Because the only APIs we were able to use were that of [INMET](http://www.inmet.gov.br/portal/) and [CGESP](https://www.cgesp.org/v3/).
 
 ## Important 
 The backend API is already running in a Cloud Foundry serviçi on IBM Cloud: https://watersonbackend-chipper-genet-kv.mybluemix.net.
