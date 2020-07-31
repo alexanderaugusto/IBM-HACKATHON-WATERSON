@@ -1,5 +1,9 @@
 # mobile
-Inside the apks folder you have the most recent apks for the project, so just install and use the app.
+## Firs clone this repository: 
+
+Sorry, but we still don't have the Andaroid version of it, so we just leave it in the APK folder inside the android folder.
+
+But if you want to run our app on IOS, try to run the Expo app, just follow the steps below.
 
 ### Instalations: 
 #### OBS: If you have nodejs and expo installed, jump for the next step.
@@ -33,6 +37,14 @@ Fist, open the powershell with administrator (ctrl + X or click with the right b
     
 	> **`yarn -v`**
 
+- Install expo-cli:
+	Just run this command for install expo-cli:
+	> **`npm install expo-cli or yarn add expo-cli`**
+
+- Install Expo App:
+	- Android: https://play.google.com/store/apps/details?id=host.exp.exponent
+	- IOS: https://apps.apple.com/br/app/expo-client/id982107779
+	
 #### 2) On Linux:
 ##### - Ubuntu (Debian):
 - Install Curl:
@@ -66,7 +78,16 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 	> **`node -v`**
 	> **`npm -v`**
 	> **`yarn -v`**
+	
 
+- Install expo-cli:
+	Just run this command for install expo-cli:
+	> **`npm install expo-cli or yarn add expo-cli`**
+
+- Install Expo App:
+	- Android: https://play.google.com/store/apps/details?id=host.exp.exponent
+	- IOS: https://apps.apple.com/br/app/expo-client/id982107779
+	
 ##### Arch Linux:
 - Install nodejs and yarn:
 
@@ -75,7 +96,15 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 	or
 	
 	> **`sudo pacman -S nodejs npm`**
+	
+- Install expo-cli:
+	Just run this command for install expo-cli:
+	> **`npm install expo-cli or yarn add expo-cli`**
 
+- Install Expo App:
+	- Android: https://play.google.com/store/apps/details?id=host.exp.exponent
+	- IOS: https://apps.apple.com/br/app/expo-client/id982107779
+	
 #### 3) On mac:
 On mac, let's install with Homebrew.
 
@@ -99,15 +128,23 @@ On mac, let's install with Homebrew.
 
 	> **`yarn -v`**
 
+- Install expo-cli:
+	Just run this command for install expo-cli:
+	> **`npm install expo-cli or yarn add expo-cli`**
+	
+- Install Expo App:
+	- Android: https://play.google.com/store/apps/details?id=host.exp.exponent
+	- IOS: https://apps.apple.com/br/app/expo-client/id982107779
+	
 ###  Run:
 Finally, after all the instalations, let's run the project:
 
 - First, install the dependences on project, by simply run:
 
-    > **`yarn install`**
+    > **`yarn install or npm install or expo install`**
 
 - Now, run the project:
 
-    > **`yarn start or npm start`** 
+    > **`yarn start or npm start or expo start`** 
 
-- Go to [http://localhost:3000](http://localhost:3000) for see the project running
+- Go to expo app and see the project running, click on the app running.
