@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "723a3147-3567-4a39-b16b-c9e93db3b837",
+		"name": "IBM-HACKATHON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WatsonAssistent",
+			"item": [
+				{
+					"name": "test",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hackathon-ibm-url}}/assistent",
+							"host": [
+								"{{hackathon-ibm-url}}"
+							],
+							"path": [
+								"assistent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_session",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hackathon-ibm-url}}/assistent/session",
+							"host": [
+								"{{hackathon-ibm-url}}"
+							],
+							"path": [
+								"assistent",
+								"session"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "send_message",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"session_id\": \"b532c7d9-512c-4c91-bd64-c660896e1eba\",\r\n    \"text\": \"what happens during a flood?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{hackathon-ibm-url}}/assistent/message",
+							"host": [
+								"{{hackathon-ibm-url}}"
+							],
+							"path": [
+								"assistent",
+								"message"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Floods",
+			"item": [
+				{
+					"name": "weather_conditions_current",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"latitude\":\"-22.3305147\",\r\n    \"longitude\":\"-45.5272463\",\r\n    \"iam_token\": \"eyJraWQiOiIyMDIwMDcyNDE4MzEiLCJhbGciOiJSUzI1NiJ9.eyJpYW1faWQiOiJpYW0tU2VydmljZUlkLTA0MWQ3MDBmLWJlYjQtNGZkNi1hYjk1LWQ2Y2Y0MTFlZWZmMyIsImlkIjoiaWFtLVNlcnZpY2VJZC0wNDFkNzAwZi1iZWI0LTRmZDYtYWI5NS1kNmNmNDExZWVmZjMiLCJyZWFsbWlkIjoiaWFtIiwiaWRlbnRpZmllciI6IlNlcnZpY2VJZC0wNDFkNzAwZi1iZWI0LTRmZDYtYWI5NS1kNmNmNDExZWVmZjMiLCJuYW1lIjoiSEFDS0FUSE9OLVNFUlZJQ0UtQ1JFREVOQ0lBTCIsInN1YiI6IlNlcnZpY2VJZC0wNDFkNzAwZi1iZWI0LTRmZDYtYWI5NS1kNmNmNDExZWVmZjMiLCJzdWJfdHlwZSI6IlNlcnZpY2VJZCIsImFjY291bnQiOnsidmFsaWQiOnRydWUsImJzcyI6IjFhNWRhMjIyYWE1ZTRiM2U5NWY5Nzc0YmRlNTg4ZDRiIiwiZnJvemVuIjp0cnVlfSwiaWF0IjoxNTk2MTk3ODYwLCJleHAiOjE1OTYyMDE0NjAsImlzcyI6Imh0dHBzOi8vaWFtLm5nLmJsdWVtaXgubmV0L29pZGMvdG9rZW4iLCJncmFudF90eXBlIjoidXJuOmlibTpwYXJhbXM6b2F1dGg6Z3JhbnQtdHlwZTphcGlrZXkiLCJzY29wZSI6ImlibSBvcGVuaWQiLCJjbGllbnRfaWQiOiJieCIsImFjciI6MSwiYW1yIjpbInB3ZCJdfQ.R1DMCbR3Ul00P9GtridEmLuLEfA5cOjgw-U9ln58nEILODrhHeW2gwsoRdVnb5ektrTr7zsQ_4Gw_gQel6gm27LGVfH1eenzhFicZojOWcxRQJqK-1ShNMuTjGx4ra8nOBgElOer1gDczORpic4jysGByfI42jbxDaZCVs8oJ43HxsTL7KxBiJzwUrNy9VajGjRiK2JknLwM2pVchehqbdTD61YThUSpVue0PmpOYfVBtZsQKhxVPuoHuqfiurdVIDXVvLGvGdA25JdoLtmWNn6STjwcXY9egbXNtY6MxIU5TMLQAVEPE-9Y3s-nwHH3f-GCpApOjJ9nRzR_Pi6cxg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{hackathon-ibm-url}}/floods/weather-conditions/current",
+							"host": [
+								"{{hackathon-ibm-url}}"
+							],
+							"path": [
+								"floods",
+								"weather-conditions",
+								"current"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "weather_conditions_every",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"latitude\":\"-22.3305147\",\r\n    \"longitude\":\"-45.5272463\",\r\n    \"iam_token\": \"eyJraWQiOiIyMDIwMDcyNDE4MzEiLCJhbGciOiJSUzI1NiJ9.eyJpYW1faWQiOiJpYW0tU2VydmljZUlkLTA0MWQ3MDBmLWJlYjQtNGZkNi1hYjk1LWQ2Y2Y0MTFlZWZmMyIsImlkIjoiaWFtLVNlcnZpY2VJZC0wNDFkNzAwZi1iZWI0LTRmZDYtYWI5NS1kNmNmNDExZWVmZjMiLCJyZWFsbWlkIjoiaWFtIiwiaWRlbnRpZmllciI6IlNlcnZpY2VJZC0wNDFkNzAwZi1iZWI0LTRmZDYtYWI5NS1kNmNmNDExZWVmZjMiLCJuYW1lIjoiSEFDS0FUSE9OLVNFUlZJQ0UtQ1JFREVOQ0lBTCIsInN1YiI6IlNlcnZpY2VJZC0wNDFkNzAwZi1iZWI0LTRmZDYtYWI5NS1kNmNmNDExZWVmZjMiLCJzdWJfdHlwZSI6IlNlcnZpY2VJZCIsImFjY291bnQiOnsidmFsaWQiOnRydWUsImJzcyI6IjFhNWRhMjIyYWE1ZTRiM2U5NWY5Nzc0YmRlNTg4ZDRiIiwiZnJvemVuIjp0cnVlfSwiaWF0IjoxNTk2MjExMDg2LCJleHAiOjE1OTYyMTQ2ODYsImlzcyI6Imh0dHBzOi8vaWFtLm5nLmJsdWVtaXgubmV0L29pZGMvdG9rZW4iLCJncmFudF90eXBlIjoidXJuOmlibTpwYXJhbXM6b2F1dGg6Z3JhbnQtdHlwZTphcGlrZXkiLCJzY29wZSI6ImlibSBvcGVuaWQiLCJjbGllbnRfaWQiOiJieCIsImFjciI6MSwiYW1yIjpbInB3ZCJdfQ.fn5uy_KQ2btMyUWK8liRWp9okQn1aJiguaLuWJD58eLJ2dXo_vLNsGZQnm79cZdUgatIBC0O_R1wTfqAvs1q54jL9zogkhySVd_Lz8MabA8mWfvXyRscxjCg9rurwrtoerCY9lhKC15QSjoOArZerFDE6FWlo71Vt2NvkrwApQ5CQpn3Ss5GZnt9jr6Xx2c-IciniggvNkJG_vRr3yykuFVpmZ1MER1N0QIQF0bgZNxltSyHZYKH3Nu8KNPU_wKAD8O5JfveSPDKIFdb9KT7iH7X4kXuvnu7Wq_Vs51pNCz_YXnP2ENm1oAg5ZGDnPh1s_7x2QvTv1-9em3QYQYO4w\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{hackathon-ibm-url}}/floods/weather-conditions/every",
+							"host": [
+								"{{hackathon-ibm-url}}"
+							],
+							"path": [
+								"floods",
+								"weather-conditions",
+								"every"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_token",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{hackathon-ibm-url}}/get-iam-token",
+							"host": [
+								"{{hackathon-ibm-url}}"
+							],
+							"path": [
+								"get-iam-token"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
