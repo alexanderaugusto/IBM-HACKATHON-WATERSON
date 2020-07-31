@@ -1,6 +1,7 @@
 # DATASETS AND CODES
 
-## git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
+## First clone this repository: 
+> git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
 
 ## Datasets
 Here are all the weather and flood data used in the project to power the Machine Learning model created by the IBM Cloud AutoIa. They were captured using the [INMET API](https://portal.inmet.gov.br/manual) and also the [CGE São Paulo website](https://www.cgesp.org/v3/)
