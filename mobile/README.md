@@ -5,13 +5,13 @@
 ## First clone this repository: 
 > git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
 
+## Introduction
+This application was developed using the Javascript language with the [React Native](https://reactnative.dev/) and [Expo-cli](https://docs.expo.io/)  library. It is where the client will use all the resources hidden behind the scenes of our application.
+
 ## Important
 Sorry, but we still don't have the Andaroid version of it, so we just leave it in the APK folder inside the android folder.
 
 But if you want to run our app on IOS, try to run the Expo app, just follow the steps below.
-
-## Introduction
-This application was developed using the Javascript language with the [React Native](https://reactnative.dev/) and [Expo-cli](https://docs.expo.io/)  library. It is where the client will use all the resources hidden behind the scenes of our application.
 
 ## Instalations: 
 #### OBS: If you have nodejs and expo installed, jump for the next step.
