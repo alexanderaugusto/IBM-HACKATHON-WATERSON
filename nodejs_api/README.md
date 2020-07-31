@@ -3,7 +3,7 @@
 ## This repository can also be found at this link https://github.com/alexanderaugusto/hackathon-ibm-backend.git, we added it here to facilitate the submission of the project.
 
 ## First clone this repository: 
-> git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
+#### git clone https://github.com/alexanderaugusto/IBM-HACKATHON-WATERSON.git
 
 The backend API is running in a Cloud Foundry application on IBM Cloud: https://watersonbackend-chipper-genet-kv.mybluemix.net.
 
