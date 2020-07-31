@@ -1,5 +1,5 @@
 # mobile
-This is the mobile application
+Inside the apks folder you have the most recent apks for the project, so just install and use the app.
 
 ### Instalations: 
 #### OBS: If you have nodejs and expo installed, jump for the next step.
