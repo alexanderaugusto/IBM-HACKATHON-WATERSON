@@ -7,7 +7,7 @@ Project Waterson designed with IBM Cloud services for Call For Code Hackathon.
 
 ### Waterson Project Diagram
 
-![waterson_diagram](https://user-images.githubusercontent.com/51683816/89073923-c2aab300-d351-11ea-82b4-bda11ef0ac8c.png)
+![waterson_diagram](https://user-images.githubusercontent.com/51683816/89089585-6dcc6400-d374-11ea-8b70-9f586d8ba99e.png)
 
 - User accesses the application developed with React Native wherever he is;
 - Application accesses the Node.Js api implemented on IBM Cloud Foundry;
