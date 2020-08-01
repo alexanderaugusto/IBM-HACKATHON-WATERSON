@@ -19,7 +19,7 @@ But if you want to run our app on IOS, try to run the Expo app, just follow the 
 On windows, let's install with chocolatey.
 
 - Install chocolatey:
-Fist, open the powershell with administrator (ctrl + X or click with the right button of mouse on the start button).
+First, open the powershell with administrator (ctrl + X or click with the right button of mouse on the start button).
 
 	 Run this command for check if you have permission for install dependences with the terminal.
 	> **`Get-ExecutionPolicy`**
